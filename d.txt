@@ -1,0 +1,82 @@
+java -cp my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
+wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+sudo sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+
+
+http://23.97.157.247:8080/
+
+
+http://23.97.157.247:8080/
+
+
+
+/usr/lib/git-core/git
+
+
+ssh-keygen -t ed25519 -C "akg.clk@gmail.com" 
+eval "$(ssh-agent -s)" ssh-add ~/.ssh/id_ed25519
+cat ~/.ssh/id_ed25519
+
+
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACCUjEA9WDquZYgNsPXqgBzmXHMsgXqDs0gXUHISTsRcFwAAAJi5wJs4ucCb
+OAAAAAtzc2gtZWQyNTUxOQAAACCUjEA9WDquZYgNsPXqgBzmXHMsgXqDs0gXUHISTsRcFw
+AAAEBJSFwgqEfC/cLXq+CzOOpeA3EvQPEx0q2YsrD2Jtxag5SMQD1YOq5liA2w9eqAHOZc
+cyyBeoOzSBdQchJOxFwXAAAAFXZkZ2F5YXRocmk2QGdtYWlsLmNvbQ==
+-----END OPENSSH PRIVATE KEY-----
+
+
+
+
+/usr/lib/git-core/git
+from Rajesh to Everyone07:50
+/usr/lib/git-core/git
+from Bharathkumar T to Everyone07:50
+sudo apt-get install openjdk-8-jdk
+from Bharathkumar T to Everyone07:52
+cat ~/.ssh/id_ed25519
+from sowmya to Everyone07:54
+
+
+
+
+
+
+
+pipeline { agent any stages { stage ('Build') { steps { sh 'mvn -B -DskipTests clean install' } } stage('Test') { steps { sh 'mvn test' } post { always { junit 'target/surefire-reports/*.xml' } } } stage('Deliver') { steps { sh './scripts/deliver.sh' } } } }
+cat ~/.ssh/id_ed25519
+from Bharathkumar T to Everyone07:54
+ssh-keygen -t ed25519 -C "akg.clk@gmail.com" eval "$(ssh-agent -s)" ssh-add ~/.ssh/id_ed25519
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
